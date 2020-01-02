@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="guestBook2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/guestBook2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="guestBook2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="guestBook2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbcp2-2.1" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="commons-pool2-2.4.1" />
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="library" level="project" name="jsp-api" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.48-bin" />
+          <element id="library" level="project" name="servlet-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
